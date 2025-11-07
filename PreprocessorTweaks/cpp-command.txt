@@ -1,0 +1,13 @@
+# To call only the preprocessor use cpp 
+# To call the preprocessor via gcc use gcc -E (only for C/C++ files!)
+cpp -P -Wall -o result.txt PreprocessorTest.txt
+
+-D	If you want to pass a key-value pair via the command line of cpp use -D KEY=VALUE
+
+-P	Inhibit generation of linemarkers in the output from the preprocessor. 
+	This might be useful when running the preprocessor on something that is not C code, 
+	and will be sent to a program which might be confused by the linemarkers. 
+	
+-Wall	Turns on all optional warnings which are desirable for normal code. 
+	At present this is -Wcomment, -Wtrigraphs, -Wmultichar and a warning about integer promotion causing a change of sign in #if expressions. 
+	Note that many of the preprocessor's warnings are on by default and have no options to control them.

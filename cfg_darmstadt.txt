@@ -1,0 +1,11 @@
+#define MODEL Darmstadt
+
+#define STATION_TUNING_INFO 1
+
+#define AUTOMATIC_TUNING 1
+
+#define SEEK_TUNING_TABLE 1
+
+
+
+#include "one-fits-all.html"
