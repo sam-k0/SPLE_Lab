@@ -14,6 +14,18 @@
 #define SEEK_TUNING_TABLE 0 
 #endif
 
+#ifndef MANUAL_TUNING_DOUBLE
+#define MANUAL_TUNING_DOUBLE 0
+#endif
+
+#ifndef MANUAL_TUNING_ACCELERATE
+#define MANUAL_TUNING_ACCELERATE 0
+#endif
+
+#ifndef MANUAL_TUNING_SINGLE
+#define MANUAL_TUNING_SINGLE 0
+#endif
+
 <!DOCTYPE html>
 <html> 
   <head>
@@ -26,13 +38,14 @@
   <body>
 	<h1>Bluedot MODEL</h1>
 
-	<h2>station tuning</h2>
+	<h2>Station Tuning</h2>
 
+<!-- using station tuning info-->
 #if STATION_TUNING_INFO
 	<p>There are various ways of tuning into a station.</p>
 #endif
 
-<!--- Automatic tuning -->
+<!-- Automatic tuning -->
 
 #if AUTOMATIC_TUNING
 	<h3>Automatic tuning <span class="key">&uarr;</span> / <span class="key">&darr;</span></h3>
@@ -43,7 +56,9 @@
 	</p>
 #endif
 
+<!-- seek tuning table -->
 #if SEEK_TUNING_TABLE
+	<h3>Seek tuning</h3>
 	<table>
 	<tr>
 		<td><span class="key">&uarr;</span></td>
@@ -64,30 +79,29 @@
 	</table>
 #endif
 
-<h3>Manual tuning with <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span></h3>
 
-#if MODEL == Darmstadt
-		<p>Press <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span>,
-			the frequency will change in short intervals downwards or upwards.
-		</p>
-		<p>
-			If you hold <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span> down,
-			the frequency scan will accelerate.
-		</p>
+<!-- Manual tuning with double << >> -->
+#if MANUAL_TUNING_DOUBLE
+	<h3>Manual tuning with <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span></h3>
+	<p>Press <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span>,
+		the frequency will change in short intervals downwards or upwards.
+	</p>
 #endif
-#if MODEL == Dieburg
-		<p>You can also tune into stations manually.</p>
-		<p>Press the <span class="key">&larr;</span> or <span class="key">&rarr;</span> button.</p>
+
+#if MANUAL_TUNING_ACCELERATE
+	<p>
+		If you hold <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span> down,
+		the frequency scan will accelerate.
+	</p>
 #endif
-#if MODEL == Griesheim
-		<p>by pressing <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span>,
-			the frequency will move up or down in increments.
-		</p>
-		<p>
-			If you hold <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span> down,
-			then the frequency will run through quickly.
-		</p>
-#endif		
+
+#if MANUAL_TUNING_SINGLE
+	<h3>Tuning into stations manually</h3>
+	<p>You can also tune into stations manually.</p>
+	<p>Press the <span class="key">&larr;</span> or <span class="key">&rarr;</span> button.</p>
+
+#endif
+
   </body>
 </html>
 

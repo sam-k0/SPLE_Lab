@@ -1,0 +1,15 @@
+#define MODEL Dieburg
+
+#define STATION_TUNING_INFO 1
+
+#define AUTOMATIC_TUNING 1
+
+#define SEEK_TUNING_TABLE 0
+
+#define MANUAL_TUNING_DOUBLE 0
+
+#define MANUAL_TUNING_ACCELERATE 0
+
+#define MANUAL_TUNING_SINGLE 1
+
+#include "one-fits-all.html"
