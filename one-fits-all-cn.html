@@ -1,0 +1,115 @@
+#ifndef MODEL
+#define MODEL Unknown
+#endif
+
+#ifndef STATION_TUNING_INFO
+#define STATION_TUNING_INFO 0
+#endif
+
+#ifndef AUTOMATIC_TUNING
+#define AUTOMATIC_TUNING 0
+#endif
+
+#ifndef SEEK_TUNING_TABLE
+#define SEEK_TUNING_TABLE 0 
+#endif
+
+#ifndef MANUAL_TUNING_DOUBLE
+#define MANUAL_TUNING_DOUBLE 0
+#endif
+
+#ifndef MANUAL_TUNING_ACCELERATE
+#define MANUAL_TUNING_ACCELERATE 0
+#endif
+
+#ifndef MANUAL_TUNING_SINGLE
+#define MANUAL_TUNING_SINGLE 0
+#endif
+
+#ifndef NUMERIC_KB
+#define NUMERIC_KB 0
+#endif
+
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="UTF-8"/>
+    <style>
+        .key {background-color:lightgrey;}
+    </style>
+    <title>Bluedot MODEL Yonghu Shouce</title>
+  </head>
+  <body>
+    <h1>Bluedot MODEL</h1>
+
+    <h2>Xunzhao Diantai</h2>
+
+<!-- using station tuning info-->
+#if STATION_TUNING_INFO
+    <p>You duo zhong fangshi keyi zhao dao diantai.</p>
+#endif
+
+<!-- Automatic tuning -->
+
+#if AUTOMATIC_TUNING
+    <h3>Zidong Tiaojie <span class="key">&uarr;</span> / <span class="key">&darr;</span></h3>
+    <p>An xia <span class="key">&uarr;</span> / <span class="key">&darr;</span>;
+       Shouji hui zidong sousuo xia yi ge diantai</p>
+    <p>Chang an: <span class="key">&uarr;</span> / <span class="key">&darr;</span>,
+       hui jia kuai huo jian man sousuo sudu.
+    </p>
+#endif
+
+<!-- seek tuning table -->
+#if SEEK_TUNING_TABLE
+    <h3>Tiaojie Sousuo</h3>
+    <table>
+    <tr>
+        <td><span class="key">&uarr;</span></td>
+        <td>Xiang shang</td>
+    </tr>
+    <tr>
+        <td><span class="key">&darr;</span></td>
+        <td>Xiang xia</td>
+    </tr>
+    <tr>
+        <td><span class="key">&lt;&lt;</span></td>
+        <td>Duan jian ge xiang xia</td>
+    </tr>
+    <tr>
+        <td><span class="key">&gt;&gt;</span></td>
+        <td>Duan jian ge xiang shang</td>
+    </tr>
+    </table>
+#endif
+
+
+<!-- Manual tuning with double << >> -->
+#if MANUAL_TUNING_DOUBLE
+    <h3>Shoudong Tiaojie yong <span class="key">&lt;&lt;</span> huo <span class="key">&gt;&gt;</span></h3>
+    <p>An xia <span class="key">&lt;&lt;</span> huo <span class="key">&gt;&gt;</span>,
+       Pinlv hui an jian ge zeng jia huo jian shao.
+    </p>
+#endif
+
+<!-- KEYBOARD -->
+#if NUMERIC_KB
+    <h3>Shuzi Jianpan</h3>
+    <p>Ni keyi yong shuzi jianpan shuru pinlv.</p>
+#endif
+
+#if MANUAL_TUNING_ACCELERATE
+    <p>
+        Chang an <span class="key">&lt;&lt;</span> huo <span class="key">&gt;&gt;</span>,
+        pinlv hui jia kuai bianhua.
+    </p>
+#endif
+
+#if MANUAL_TUNING_SINGLE
+    <h3>Shoudong Tiaojie Diantai</h3>
+    <p>Ni ye keyi shoudong tiaojie diantai.</p>
+    <p>An xia <span class="key">&larr;</span> huo <span class="key">&rarr;</span> anniu.</p>
+#endif
+
+  </body>
+</html>

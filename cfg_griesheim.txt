@@ -14,7 +14,7 @@
 
 #define NUMERIC_KB 1
 
-#define LANGUAGE 1
+#define LANGUAGE 3
 
 #if LANGUAGE == 0
 #include "one-fits-all.html"
@@ -22,4 +22,8 @@
 
 #if LANGUAGE == 1
 #include "one-fits-all-german.html"
+#endif
+
+#if LANGUAGE == 3
+#include "one-fits-all-cn.html"
 #endif

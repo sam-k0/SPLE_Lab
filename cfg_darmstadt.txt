@@ -23,3 +23,8 @@
 #if LANGUAGE == 1
 #include "one-fits-all-german.html"
 #endif
+
+#if LANGUAGE == 3
+#include "one-fits-all-cn.html"
+#endif
+
