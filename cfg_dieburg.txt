@@ -12,4 +12,14 @@
 
 #define MANUAL_TUNING_SINGLE 1
 
+#define NUMERIC_KB 0
+
+#define LANGUAGE 1
+
+#if LANGUAGE == 0
 #include "one-fits-all.html"
+#endif
+
+#if LANGUAGE == 1
+#include "one-fits-all-german.html"
+#endif
