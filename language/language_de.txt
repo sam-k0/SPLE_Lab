@@ -1,0 +1,26 @@
+#define MANUAL_TITLE Benutzerhandbuch für Bluedot
+
+#define AUTOMATIC_TUNING_H3 Automatische Sendersuche <span class="key">&uarr;</span> / <span class="key">&darr;</span>
+#define AUTOMATIC_TUNING_P1 Drücken Sie <span class="key">&uarr;</span> / <span class="key">&darr;</span>; das Autoradio wird automatisch nach dem nächsten Sender suchen.
+#define AUTOMATIC_TUNING_P2 Wenn Sie <span class="key">&uarr;</span> / <span class="key">&darr;</span> gedrückt halten, beschleunigt sich die Sendersuche nach oben oder unten.
+
+#define MANUAL_TUNING_ACCELERATE_P Wenn Sie <span class="key">&lt;&lt;</span> oder <span class="key">&gt;&gt;</span> gedrückt halten, beschleunigt sich der Frequenzlauf.
+
+#define MANUAL_TUNING_DOUBLE_H3 Manuelle Sendersuche mit <span class="key">&lt;&lt;</span> oder <span class="key">&gt;&gt;</span>
+#define MANUAL_TUNING_DOUBLE_P Drücken Sie <span class="key">&lt;&lt;</span> oder <span class="key">&gt;&gt;</span>, die Frequenz wird in kurzen Intervallen nach unten oder oben verändert.
+
+#define MANUAL_TUNING_SINGLE_H3 Manuelles Einstellen von Sendern
+#define MANUAL_TUNING_SINGLE_P1 Sie können Sender auch manuell einstellen.
+#define MANUAL_TUNING_SINGLE_P2 Drücken Sie die <span class="key">&larr;</span>- oder <span class="key">&rarr;</span>-Taste.
+
+#define NUMERIC_KB_H3 Numerische Tastatur
+#define NUMERIC_KB_P Sie können die gewünschte Frequenz einfach über die numerische Tastatur eingeben.
+
+#define SEEK_TUNING_TABLE_H3 Sendersuchlauf
+#define SEEK_TUNING_TABLE_UP Hoch
+#define SEEK_TUNING_TABLE_DOWN Runter
+#define SEEK_TUNING_TABLE_SHORT_DOWN Runter in kurzen Intervallen
+#define SEEK_TUNING_TABLE_SHORT_UP Hoch in kurzen Intervallen
+
+#define STATION_TUNING_INFO_P Es gibt verschiedene Möglichkeiten, einen Sender einzustellen.
+#define STATION_TUNING_INFO_H2 Sendereinstellung

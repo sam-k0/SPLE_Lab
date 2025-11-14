@@ -1,0 +1,26 @@
+#define MANUAL_TITLE Yonghu shouce wei Bluedot
+
+#define AUTOMATIC_TUNING_H3 Zidong xunzhao diantai <span class="key">&uarr;</span> / <span class="key">&darr;</span>
+#define AUTOMATIC_TUNING_P1 An <span class="key">&uarr;</span> / <span class="key">&darr;</span>; chezai shouyinji hui zidong xunzhao xia yi ge diantai.
+#define AUTOMATIC_TUNING_P2 Ruguo chang an <span class="key">&uarr;</span> / <span class="key">&darr;</span>, xunzhao su du hui xiang shang huo xiang xia jiasu.
+
+#define MANUAL_TUNING_ACCELERATE_P Dang ni chang an <span class="key">&lt;&lt;</span> huo <span class="key">&gt;&gt;</span>, pinlv saomiao hui jiasu.
+
+#define MANUAL_TUNING_DOUBLE_H3 Shoudong tiaozheng yong <span class="key">&lt;&lt;</span> huo <span class="key">&gt;&gt;</span>
+#define MANUAL_TUNING_DOUBLE_P An <span class="key">&lt;&lt;</span> huo <span class="key">&gt;&gt;</span>, pinlv hui yi duan duan jian ge xiang xia huo xiang shang gaibian.
+
+#define MANUAL_TUNING_SINGLE_H3 Shoudong tiaoru diantai
+#define MANUAL_TUNING_SINGLE_P1 Ni ye keyi shoudong tiaoru diantai.
+#define MANUAL_TUNING_SINGLE_P2 An <span class="key">&larr;</span> huo <span class="key">&rarr;</span> anniu.
+
+#define NUMERIC_KB_H3 Shuzi jianpan
+#define NUMERIC_KB_P Ni keyi yong shuzi jianpan qingsong shuru suo xuyao de pinlv.
+
+#define SEEK_TUNING_TABLE_H3 Xunzhao tiaojie
+#define SEEK_TUNING_TABLE_UP Xiang shang
+#define SEEK_TUNING_TABLE_DOWN Xiang xia
+#define SEEK_TUNING_TABLE_SHORT_DOWN Duan jian ge xiang xia
+#define SEEK_TUNING_TABLE_SHORT_UP Duan jian ge xiang shang
+
+#define STATION_TUNING_INFO_P You henduo fangshi keyi tiaoru diantai.
+#define STATION_TUNING_INFO_H2 Diantai tiaozheng
