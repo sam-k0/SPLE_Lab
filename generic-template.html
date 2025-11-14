@@ -1,0 +1,69 @@
+#ifndef MODEL
+#define MODEL Unknown
+#endif
+
+#ifndef STATION_TUNING_INFO
+#define STATION_TUNING_INFO 0
+#endif
+
+#ifndef AUTOMATIC_TUNING
+#define AUTOMATIC_TUNING 0
+#endif
+
+#ifndef SEEK_TUNING_TABLE
+#define SEEK_TUNING_TABLE 0 
+#endif
+
+#ifndef MANUAL_TUNING_DOUBLE
+#define MANUAL_TUNING_DOUBLE 0
+#endif
+
+#ifndef MANUAL_TUNING_ACCELERATE
+#define MANUAL_TUNING_ACCELERATE 0
+#endif
+
+#ifndef MANUAL_TUNING_SINGLE
+#define MANUAL_TUNING_SINGLE 0
+#endif
+
+#ifndef NUMERIC_KB
+#define NUMERIC_KB 0
+#endif
+
+
+<!-- Do language assigning constants here -->
+#if LANGUAGE == 1 // EN
+#include "language/language_en.txt"
+#endif
+
+<!DOCTYPE html>
+<html> 
+  <head>
+	<meta charset="UTF-8"/>
+	<style>
+		.key	{background-color:lightgrey;}
+	</style>
+	<title>MANUAL_TITLE MODEL</title>
+  </head>
+  <body>
+	<h1>Bluedot MODEL</h1>
+
+<!-- using station tuning info-->
+#include "features/station_tuning_info.txt"
+<!-- Automatic tuning -->
+#include "features/automatic_tuning.txt"
+<!-- seek tuning table -->
+#include "features/seek_tuning_table.txt"
+<!-- Manual tuning with double << >> -->
+#include "features/manual_tuning_double.txt"
+<!-- KEYBOARD -->
+#include "features/numeric_kb.txt"
+<!--Manual tuning accel-->
+#include "features/manual_tuning_accel.txt"
+<!--Manual tunging single-->
+#include "features/manual_tuning_single.txt"
+
+  </body>
+</html>
+
+

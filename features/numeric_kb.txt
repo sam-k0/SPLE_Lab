@@ -1,0 +1,4 @@
+#if NUMERIC_KB
+	<h3>NUMERIC_KB_H3</h3>
+	<p>NUMERIC_KB_P</p>
+#endif

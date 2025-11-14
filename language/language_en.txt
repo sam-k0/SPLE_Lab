@@ -1,0 +1,29 @@
+
+#define MANUAL_TITLE User manual for Bluedot
+
+#define AUTOMATIC_TUNING_H3 Automatic tuning <span class="key">&uarr;</span> / <span class="key">&darr;</span>
+#define AUTOMATIC_TUNING_P1 Press <span class="key">&uarr;</span> / <span class="key">&darr;</span>; the car radio will automatically search for the next station.
+#define AUTOMATIC_TUNING_P2 If you hold <span class="key">&uarr;</span> / <span class="key">&darr;</span>, seek tuning will speed up in upwards or downwards direction.
+
+#define MANUAL_TUNING_ACCELERATE_P If you hold <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span> down, the frequency scan will accelerate.
+
+#define MANUAL_TUNING_DOUBLE_H3 Manual tuning with <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span>
+#define MANUAL_TUNING_DOUBLE_P Press <span class="key">&lt;&lt;</span> or <span class="key">&gt;&gt;</span>, the frequency will change in short intervals downwards or upwards.
+
+#define MANUAL_TUNING_SINGLE_H3 Tuning into stations manually
+#define MANUAL_TUNING_SINGLE_P1 You can also tune into stations manually.
+#define MANUAL_TUNING_SINGLE_P2 Press the <span class="key">&larr;</span> or <span class="key">&rarr;</span> button.
+
+#define NUMERIC_KB_H3 Numeric Keyboard
+#define NUMERIC_KB_P You can easily enter the desired frequency using the numeric keyboard.
+
+#define SEEK_TUNING_TABLE_H3 Seek tuning
+#define SEEK_TUNING_TABLE_UP Up
+#define SEEK_TUNING_TABLE_DOWN Down
+#define SEEK_TUNING_TABLE_SHORT_DOWN Down in short intervals
+#define SEEK_TUNING_TABLE_SHORT_UP Up in short intervals
+
+#define STATION_TUNING_INFO_P There are various ways of tuning into a station.
+#define STATION_TUNING_INFO_H2 Station Tuning
+
+

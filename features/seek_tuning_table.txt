@@ -1,0 +1,21 @@
+#if SEEK_TUNING_TABLE
+	<h3>SEEK_TUNING_TABLE_H3</h3>
+	<table>
+	<tr>
+		<td><span class="key">&uarr;</span></td>
+		<td>SEEK_TUNING_TABLE_UP</td>
+	</tr>
+	<tr>
+		<td><span class="key">&darr;</span></td>
+		<td>SEEK_TUNING_TABLE_DOWN</td>
+	</tr>
+	<tr>
+		<td><span class="key">&lt;&lt;</span></td>
+		<td>SEEK_TUNING_TABLE_SHORT_DOWN</td>
+	</tr>
+	<tr>
+		<td><span class="key">&gt;&gt;</span></td>
+		<td>SEEK_TUNING_TABLE_SHORT_UP</td>
+	</tr>
+	</table>
+#endif
