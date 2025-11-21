@@ -16,3 +16,4 @@
 
 #define LANGUAGE 1
 
+#include "generic-template.html"

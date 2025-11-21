@@ -1,6 +1,6 @@
 #define MODEL Darmstadt
 
-#define STATION_TUNING_INFO 0
+#define STATION_TUNING_INFO 0 
 
 #define AUTOMATIC_TUNING 1
 
