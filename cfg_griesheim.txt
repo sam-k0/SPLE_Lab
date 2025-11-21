@@ -15,3 +15,5 @@
 #define NUMERIC_KB 1
 
 #define LANGUAGE 3
+
+#include "generic-template.html"
