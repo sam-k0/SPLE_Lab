@@ -25,7 +25,7 @@ To create a custom radio manual, answer these questions:
    - ℹ️ Station info display
    - 🔍 Seek tuning table
 
-Create `configs/cfg_<yourstation>.txt` with corresponding `#define` statements based on existing configs. Use the given template config 
+Create `configs/cfg_<yourstation>.txt` with corresponding `#define` statements based on existing configs. Use the given template config `cfg_template.txt`
 
 ## 💡 Example
 ```bash
