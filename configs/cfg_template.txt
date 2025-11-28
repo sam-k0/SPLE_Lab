@@ -4,24 +4,27 @@
 #define STATION_TUNING_INFO 0 
 // If your model shows station tuning info, set to 1, else set to 0
 
-#define AUTOMATIC_TUNING 1
-// If your model supports automatic tuning, set to 1, else set to 0
 
 #define SEEK_TUNING_TABLE 1
 // If your model uses seek tuning table instructions, set to 1, else set to 0
 
 
-//---- MANUAL TUNING OPTIONS: Set only one of the following to 1 ----
+//---- AUTOMATIC TUNING: Does your model support automatic tuning? ----
+#define AUTOMATIC_TUNING 1
+// If your model supports automatic tuning, set to 1, else set to 0
+//-----
+
+//---- MANUAL TUNING OPTIONS: Select combination of these ----
 #define MANUAL_TUNING_DOUBLE 1
 // If your model supports double arrow manual tuning, set to 1, else set to 0
 
 #define MANUAL_TUNING_SINGLE 0
 // If your model supports single arrow manual tuning, set to 1, else set to 0
-//-----
-
 
 #define MANUAL_TUNING_ACCELERATE 1
 // If your model supports accelerated manual tuning, set to 1, else set to 0
+//-----
+
 
 #define NUMERIC_KB 0
 // If your model has a numeric keyboard, set to 1, else set to 0
