@@ -11,6 +11,8 @@ cpp -P configs/<config>.txt > output.html
 - `cfg_griesheim.txt` - Griesheim station
 - `cfg_template.txt` - Base template
 
+Copy the base template and configure the different define flags
+
 ## ⚙️ Creating Your Own Config
 
 To create a custom radio manual, answer these questions:

@@ -10,10 +10,14 @@ The definition is:
 
 
 # What is your core asset? What does not belong to your core asset?
-The core assets would be the features.
+The core asset consists out of the features.
 
-Show the variability model you created
-Describe an algorithm that takes your variability model and transforms it into a reasonable list of questions. Make sure that the list starts with the most basic questions.
+# Show the variability model you created
+
+# Describe an algorithm that takes your variability model and transforms it into a reasonable list of questions. Make sure that the list starts with the most basic questions.
 Remember: You need an algorithm! In real life, it is not possible to "read" the whole model.
-What did you do to make your solution easy to configure? Easy to use?
-What advantages or disadvantages do you see?
+# What did you do to make your solution easy to configure? Easy to use?
+Add config files with descriptions
+
+
+# What advantages or disadvantages do you see?
