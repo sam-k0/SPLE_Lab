@@ -31,5 +31,5 @@ Create `configs/cfg_<yourstation>.txt` with corresponding `#define` statements b
 
 ## 💡 Example
 ```bash
-cpp -P configs/cfg_darmstadt.txt > output_darmstadt.html
+cpp -P -I. configs/cfg_darmstadt.txt > output_darmstadt.html
 ```
