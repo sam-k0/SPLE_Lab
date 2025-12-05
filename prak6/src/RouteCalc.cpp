@@ -10,3 +10,4 @@ void RouteCalc::calculate() {
     std::cout << "Truck" << std::endl;
 }
 #endif
+
