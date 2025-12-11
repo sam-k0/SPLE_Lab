@@ -2,12 +2,21 @@
 #define DRIVERINFOSYSTEM_H
 
 #include "RouteStrategy.h"
+#include "ServiceLocator.h"
 
 class DriverInfoSystem {
 public:
-    DriverInfoSystem(RouteStrategy* strategy) : myRS(strategy) {}
+    DriverInfoSystem(long id) {
+        myRS = ServiceLocator::getInstance().getComponent(id);
+        if (myRS) {
+            myRS->calculate();
+        }
+    }
+
     void newRoute() {
-        myRS->calculate();
+        if (myRS) {
+            myRS->calculate();
+        }
     }
 
 private:
