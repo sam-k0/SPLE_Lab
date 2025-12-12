@@ -2,6 +2,7 @@
 #include "../include/TruckStrategy.h"
 #include "../include/DriverInfoSystem.h"
 #include "../include/ServiceLocator.h"
+#include "../include/BusStrategy.h"
 
 int main() {
     // Register PassengerStrategy with ID 12345
@@ -25,6 +26,18 @@ int main() {
     dis2.newRoute();
 
     delete truckStrategy;
+
+
+    // Register TruckStrategy with ID 12345
+    RouteStrategy* busStrategy = new BusStrategy();
+    ServiceLocator::getInstance().subscribe(12345, busStrategy);
+    
+    // Create another DriverInfoSystem which fetches the new strategy from ServiceLocator
+    std::cout << "\nUsing busStrategy:" << std::endl;
+    DriverInfoSystem dis3(12345);
+    dis3.newRoute();
+
+    delete busStrategy;
 
     return 0;
 }
